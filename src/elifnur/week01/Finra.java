@@ -1,5 +1,7 @@
 package elifnur.week01;
 
+import java.util.Scanner;
+
 public class Finra {
     /*
     Numbers -- FINRA
@@ -9,7 +11,10 @@ for numbers which are a multiple of 3,
  multiple of 5, print "RA" instead of the number. for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number.
      */
     public static void main(String[] args) {
-        int x = 15;
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Can you write a number please");
+        int x= scan.nextInt();
+
         if (x > 0 && x <= 30) {
 
             if (x%3==0 && x%5==0) {
