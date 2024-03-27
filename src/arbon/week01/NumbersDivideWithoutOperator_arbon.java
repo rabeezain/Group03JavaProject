@@ -1,12 +1,19 @@
 package arbon.week01;
 
-public class NumbersDivideWithoutOperator {
+import java.util.Scanner;
+
+public class NumbersDivideWithoutOperator_arbon {
     public static void main(String[] args) {
 
-        int dividend = 86;
-        int divisor = 7;
-        int quotioent = 0;
+        Scanner input = new Scanner(System.in);
 
+        System.out.println("Enter your dividend number: ");
+        int dividend = input.nextInt();
+
+        System.out.println("Enter your divisor number: ");
+        int divisor = input.nextInt();
+
+        int quotioent = 0;
         while(dividend>=divisor){
             dividend -= divisor;
             quotioent++;
