@@ -1,6 +1,6 @@
 package arbon.week01;
 
-public class NumbersDivideWithoutOperator {
+public class NumbersDivideWithoutOperator_arbon {
     public static void main(String[] args) {
 
         int dividend = 86;
