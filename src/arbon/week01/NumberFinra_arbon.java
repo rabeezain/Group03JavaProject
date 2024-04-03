@@ -1,6 +1,6 @@
 package arbon.week01;
 
-public class NumberFinra {
+public class NumberFinra_arbon {
     public static void main(String[] args) {
         int num;
         for (num = 1; num <= 30; num++ ){
