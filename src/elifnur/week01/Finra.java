@@ -27,7 +27,7 @@ for numbers which are a multiple of 3,
             }else {
                 System.out.println("number is not divide");
             }
-            System.out.println("x = " + x);
+           System.out.println("x = " + x);
         }
     }
 }
