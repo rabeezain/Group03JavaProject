@@ -1,11 +1,14 @@
 package elifnur.week01;
 
+import java.util.Scanner;
+
 public class Divide {
     /*
     Numbers -- Divide without / operator
 Write a method that can divide two numbers without using division operator
      */
     public static void main(String[] args) {
+
         int x=23;
         int y=2;
         int z=1;
