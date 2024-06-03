@@ -18,20 +18,18 @@ public class task1 {
     public static void main(String[] args) {
 
 
-            Set<Character> uniqueCharacters = new HashSet<>();
-            String str = "AAABBBCCCDEF";
+        Set<Character> uniqueCharacters = new HashSet<>();
+        String str = "AAABBBCCCDEF";
 
-            for (char c : str.toCharArray()) {
-                if (c == 'D' || c == 'E' || c == 'F') {
+        for (char c : str.toCharArray()) {
+            if (c == 'D' || c == 'E' || c == 'F') {
 
-                    uniqueCharacters.add(c);
-                }
-            }
-
-            System.out.print("linkhasset = ");
-            for (char c : uniqueCharacters) {
+                uniqueCharacters.add(c);
                 System.out.print(c);
             }
         }
+
+
     }
+}
 

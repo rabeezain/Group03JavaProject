@@ -25,9 +25,9 @@ public class task3 {
         }
 
         public static void main(String[] args) {
-            String input = "AAABBBCCC";
-            String result = removeDuplicates(input);
-            System.out.println("input " + input);
+
+            String result = removeDuplicates("aaaavbbbbbbvdfw");
+
             System.out.println(" without duplicates: " + result);
         }
 
