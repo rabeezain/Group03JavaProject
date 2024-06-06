@@ -1,4 +1,4 @@
-package Zerrin.Week6;
+package Zerrin.Week06;
 
 public class string_PasswordValidation {
 

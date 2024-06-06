@@ -1,11 +1,11 @@
-package Zerrin.Week6;
+package Zerrin.Week06;
 
 public class string_SumOfAllDigits {
 
     public static void main(String[] args) {
 
         String str = "12 java 5 apple 3";
-        System.out.println(CountNum(str));
+        System.out.println("Sum of all digits: "+ CountNum(str));
     }
 
     public static int CountNum(String input) {
@@ -22,7 +22,6 @@ public class string_SumOfAllDigits {
                 result += Integer.parseInt(part);
             }
         }
-
         return result;
     }
 
